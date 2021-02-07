@@ -1,0 +1,30 @@
+
+
+.scroll-products{
+    border: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto;
+}
+
+.scroll-products .scroll-item{
+    width: auto;
+    text-align: center;
+    background-color: #ddd;
+    margin: 0px 10px;
+}
+
+.scroll-products::-webkit-scrollbar{
+    width: 2px;
+}
+
+.red-discount{
+    color: red;
+    font-weight: bold;
+    font-size: medium;
+}
+
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ddd;
+}
